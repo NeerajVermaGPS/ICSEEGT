@@ -1,0 +1,259 @@
+/* 
+Author: Neeraj Verma
+LinkedIn: https://www.linkedin.com/in/neerajvermagps/
+Updated on: 28-06-2025
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Playfair Display");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Alexandria");
+@import url("https://fonts.googleapis.com/css?family=Advent Pro");
+@import url("https://fonts.googleapis.com/css?family=Outfit");
+@import url("https://fonts.googleapis.com/css?family=Atkinson Hyperlegible");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: #f4faff;
+  font-family: var(--ThemeFont);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-theme-color: #004D40;
+  --theme-yellow: #ffd215;
+  --primary-font-color: black;
+  --secondary-font-color: #242424;
+  --tertiary-font-color: #424242;
+  --bg-color-dark: #0c121d;
+  --bg-color-light: #E0F2F1;
+  --ThemeFont: "Lato";
+  --PrimaryFont: "Playfair Display";
+  --SecondaryFont: "Outfit";
+  --TertiaryFont: "Atkinson Hyperlegible";
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-h {
+  height: 100%;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.full-hw {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  width: fit-content;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.absolute_00 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fixed_00 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.comfont {
+  font-family: var(--TertiaryFont);
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.comicon {
+  height: 11px;
+  margin-right: 5px;
+}
+
+/* Buttons */
+.combtn {
+  margin: 10px;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 13px;
+  font-family: var(--TertiaryFont);
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.combtn:disabled, .combtn-disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.combtn img {
+  width: 20px;
+  margin-right: 6px;
+  transition: 0.4s;
+}
+
+.combtn:hover img {
+  filter: invert(1);
+}
+
+.inline-button {
+  background-color: transparent;
+  border: 1px solid rgb(138, 138, 138);
+  color: rgb(208, 208, 208);
+  margin: 0;
+  margin-top: 5px;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.inline-button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.white-border-transparent {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.white-border-transparent:hover {
+  background: white;
+  color: black;
+}
+
+.white-border-white {
+  border: 2px solid white;
+  background: white;
+  color: black;
+}
+
+.white-border-white:hover {
+  background: transparent;
+  color: white;
+}
+
+.black-border-black {
+  border: 2px solid var(--main-theme-color);
+  background: var(--main-theme-color);
+  color: white;
+}
+
+.black-border-black:hover {
+  background: transparent;
+  color: var(--main-theme-color);
+}
+
+.black-border-transparent {
+  border: 2px solid var(--main-theme-color);
+  background: transparent;
+  color: var(--main-theme-color);
+}
+
+.black-border-transparent:hover {
+  background: var(--main-theme-color);
+  color: white;
+}
+
+.smr-btn {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--main-theme-color);
+  border: 1.5px solid var(--main-theme-color);
+  transition: 0.3s;
+}
+
+.smr-btn img {
+  height: 100%;
+  width: 100%;
+  filter: invert(1);
+}
+
+.smr-btn:hover {
+  filter: contrast(1.2);
+}
+
+/* Animations */
+.fadein-effect {
+  animation: fadesin 1s;
+}
+
+@keyframes fadesin {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100;
+  }
+}
+
+.fade-in-comp {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fade-in-comp.active {
+  opacity: 1;
+}
+
+/* Font files */
+.playfair {
+  font-family: var(--PrimaryFont);
+}
+
+.lato {
+  font-family: var(--SecondaryFont);
+}
+
+.atkinson {
+  font-family: var(--TertiaryFont);
+}
+
+.outfit {
+  font-family: var(--ThemeFont);
+}

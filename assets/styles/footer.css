@@ -1,0 +1,150 @@
+/* 
+Author: Neeraj Verma
+LinkedIn: https://www.linkedin.com/in/neerajvermagps/
+Updated on: 28-06-2025
+*/
+
+.section-padding {
+  padding: 40px 0 20px 0;
+}
+
+footer {
+  display: block;
+
+  ul li,
+  ol li {
+    list-style: none;
+  }
+
+  ul,
+  ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.footer-area {
+    background: var(--main-theme-color);
+
+    h3 {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #ffffffe0;
+        line-height: 23px;
+        margin: 0;
+        padding-right: 50px;
+    }
+
+    ul li a {
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    ul li a:hover {
+        color: var(--theme-yellow);
+    }
+
+    .footer-social li {
+        display: inline-block;
+
+        img {
+            height: 65%;
+            filter: invert(1);
+            transition: 0.3s;
+        }
+
+        a {
+            background: #fff;
+            width: 35px;
+            height: 35px;
+            border-radius: 4px;
+            margin-right: 5px;
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        a:hover {
+            img {
+                filter: invert(0);
+            }
+        }
+
+        .facebook:hover {
+            background: #3b5998;
+        }
+
+        .twitter:hover {
+            background: #00aced;
+        }
+
+        .linkedin:hover {
+            background: #fb3958;
+        }
+
+        .google-plus:hover {
+            background: #d34836;
+        }
+    }
+}
+
+.footer-col {
+    width: 90%;
+    max-width: 250px;
+}
+
+.widget {
+    margin-top: 10px;
+
+    .widget-title {
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: #fff;
+    }
+}
+
+#copyright {
+    background: #0b0b0b;
+    text-align: center;
+
+    p {
+        line-height: 42px;
+        color: #fff;
+        margin: 0;
+    }
+
+    p a {
+        color: #fff;
+    }
+
+    p a:hover {
+        color: var(--theme-yellow);
+    }
+}
+
+.form-control {
+    font-size: 14px;
+    padding: 12px 20px;
+    box-shadow: none;
+    color: #848484;
+    background: #f7f7f7;
+    border: none;
+    border-bottom: 1.5px solid black;
+    border-radius: 0;
+    resize: none;
+    transition: all 500ms ease;
+}
+
+@media (max-width: 450px) {
+  .footer-area h3 {
+    margin-top: 20px;
+  }
+}

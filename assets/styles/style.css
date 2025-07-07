@@ -1,0 +1,360 @@
+/* 
+Author: Neeraj Verma
+LinkedIn: https://www.linkedin.com/in/neerajvermagps/
+Updated on: 07-07-2025
+*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Section Commons */
+.section-title {
+  border-bottom: 2px solid var(--theme-yellow);
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 23px;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--main-theme-color);
+}
+
+.sub-section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #4a5568;
+  margin-bottom: 50px;
+}
+
+/* Header */
+header {
+  gap: 10px;
+  h1 {
+    color: var(--main-theme-color);
+  }
+}
+
+.logo-left-l,
+.logo-right-l {
+  width: 110px;
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+.logo-left-s,
+.logo-right-s {
+  display: none;
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.header-text {
+  width: calc(100% - 230px);
+}
+
+.tth-1 {
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+/* Hero */
+.hero-slider {
+  height: 400px;
+}
+
+/* Main */
+.main {
+  flex-direction: row;
+  p {
+    text-align: justify;
+  }
+  li {
+    text-align: justify;
+  }
+}
+
+/* Main Content */
+.content {
+  width: calc(100% - 405px);
+  padding: 50px 30px;
+  padding-left: 50px;
+}
+
+.themed-accordion .accordion-button {
+  color: var(--main-theme-color);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.themed-accordion .accordion-button:not(.collapsed) {
+  background-color: var(--main-theme-color);
+  color: white;
+}
+.themed-accordion .accordion-body {
+  background-color: #f8f9fa;
+  color: var(--secondary-font-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding: 1.2rem;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: var(--main-theme-color);
+}
+
+.accordion-body img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.aside {
+  width: 400px;
+  padding: 50px 30px;
+  padding-right: 50px;
+}
+
+.date-ctnr {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.42);
+  height: fit-content;
+}
+
+.dates li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #b9c3dc;
+  padding: 10px 0;
+}
+
+.date-title {
+  font-size: 14px;
+  color: #000000;
+}
+
+.date-desc {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7d7d7d;
+}
+
+/* Marquee */
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-left: 100%;
+  font-size: 14px;
+  animation: scroll-left 50s linear infinite;
+  font-weight: 600;
+  color: var(--main-theme-color);
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+}
+
+.marquee a {
+  color: #004080;
+  text-decoration: underline;
+  margin: 0 20px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 800px) {
+  .logo-left-l,
+  .logo-right-l {
+    display: none;
+  }
+
+  .logo-left-s,
+  .logo-right-s {
+    display: block;
+    width: auto;
+    height: 80px;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+  .tth-1 {
+    font-size: 17px;
+  }
+  .tth-2 {
+    gap: 10px;
+  }
+  .hero-slider {
+    height: 300px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+    padding: 50px 30px;
+  }
+
+  .aside {
+    width: 70%;
+    margin: auto;
+    padding: 50px 30px;
+    padding-top: 0;
+  }
+
+  .committee-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .committee-pair {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .committee-group {
+    width: 100%;
+  }
+  .committee-block h3 {
+    font-size: 17px;
+  }
+  .publication-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .pub-box {
+    padding: 20px;
+  }
+
+  .pub-box h3 {
+    font-size: 1.05rem;
+  }
+  .sponsorship-table table {
+    font-size: 0.85rem;
+  }
+  .contacts,
+  .downloads-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .accordion-body img {
+  height: 200px;
+}
+.themed-accordion .accordion-button {
+  font-size: 14px;
+}
+  .aside {
+    width: 100%;
+  }
+  .countdown-blocks {
+    gap: 16px;
+  }
+
+  .time-block {
+    padding: 10px 15px;
+    min-width: 90px;
+  }
+
+  .time-value {
+    font-size: 22px;
+  }
+
+  .time-label {
+    font-size: 13px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .cfp-intro {
+    font-size: 1rem;
+  }
+
+  .track-card h3 {
+    font-size: 1rem;
+  }
+
+  .committee-patrons-b {
+    flex-direction: column;
+  }
+  .bank-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .value {
+    margin-top: 5px;
+  }
+  .table-scroll {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-content {
+    h1 {
+      font-size: 35px;
+    }
+  }
+
+  .countdown-blocks {
+    max-width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .countdown-description {
+    font-size: 15px;
+  }
+
+  .table-scroll {
+    display: block;
+  }
+
+  .bank-row {
+    flex-direction: column;
+  }
+
+  .bank-details {
+    .value {
+      text-align: start;
+    }
+  }
+}
