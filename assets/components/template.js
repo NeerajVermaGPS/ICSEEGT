@@ -1,3 +1,5 @@
+const last_updated = "July 14, 2025 12:02 PM";
+
 export const header = `
   <header class="column pb-3 full-w">
     <div class="c-row p-3 pb-0 full-w" style="gap: 10px;">
@@ -145,7 +147,7 @@ export const footer = `
             <p class="mb-0 p-0">Designed, Developed and Managed by <a
                     href="https://neerajvermagps.infinityfreeapp.com/">Neeraj
                     Verma</a> (+91 9352298110)</p>
-            <p>Last updated on: July 07, 2025 12:02 PM</p>
+            <p>Last updated on: ${last_updated}</p>
         </div>
 `
 

@@ -20,7 +20,7 @@ html {
   scroll-behavior: smooth;
   user-select: none;
   -webkit-user-select: none;
-  background-color: #f4faff;
+  background-color: var(--bg-color-light);
   font-family: var(--ThemeFont);
 }
 
@@ -35,11 +35,13 @@ html {
   --secondary-font-color: #242424;
   --tertiary-font-color: #424242;
   --bg-color-dark: #0c121d;
-  --bg-color-light: #E0F2F1;
+  --bg-color-light: #ffffff;
   --ThemeFont: "Lato";
   --PrimaryFont: "Playfair Display";
   --SecondaryFont: "Outfit";
   --TertiaryFont: "Atkinson Hyperlegible";
+  --bar-bg: #e0f2f1;
+  --bar-fill: #004D40;
 }
 
 img {
