@@ -164,7 +164,7 @@ export const aside = `
             <li><span class="date-title">Conference Dates:</span><span class="date-desc">December 12–13, 2025</span></li>
           </ul>
         </div>
-        <h2 class="section-title mt-5">Publishers</h2>
+        <!-- <h2 class="section-title mt-5">Publishers</h2>
         <div class="full-w mt-2 column shadow rounded-2 p-3 date-ctnr">
           <img src="/assets/images/iop.png" alt="publishers" class="full-w">
           <p class="mt-2">All accepted full-length papers of the conference will be published IOP Conference Series: Earth and Environmental Science (Scopus Indexed)</p>
@@ -172,5 +172,5 @@ export const aside = `
         <div class="full-w mt-5 column shadow rounded-2 p-3 date-ctnr">
           <img src="/assets/images/springer.png" alt="publishers" class="full-w">
           <p>After peer review by the journal selected papers from ICSEEGT 2024 will be published in a special issue entitled " Recent Environmental and Renewable Energy Innovations for a Sustainable Future'' in Environmental Science and Pollution Research (ESPR) of Springer.</p>
-        </div>
+        </div> -->
 `
