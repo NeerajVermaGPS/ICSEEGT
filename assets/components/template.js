@@ -8,13 +8,13 @@ export const header = `
       </div>
       <div class="header-text text-center">
         <h1 class="tth-1 full-w">
-          5<sup>th</sup> International Conference on<br><b> Sustainable Energy, Environment and Green Technologies
+          Fifth International Conference on<br><b> Sustainable Energy, Environment and Green Technologies
             (ICSEEGT
             2025)</b>
         </h1>
         <div class="tth-2 full-w column justify-content-center">
           <div class="tth-21">
-            Organized by Poornima College of Engineering, Jaipur, India<br>(Hybrid Mode)<br>
+            Jointly Organized by Department of Mechanical & Civil Engineering<br/>Poornima College of Engineering, Jaipur, India<br>(Hybrid Mode)<br>
             <strong>(December 12-13, 2025)</strong>
           </div>
         </div>
@@ -23,12 +23,12 @@ export const header = `
             <img src="/assets/images/pce.png" alt="pce">
           </div>
           <div class="logo-right-s">
-            <img src="/assets/images/icseegt2024.jpg" alt="ICSEEGT 2025">
+            <img src="/assets/images/icseegt2025.png" alt="ICSEEGT 2025">
           </div>
         </div>
       </div>
       <div class="logo-right-l">
-        <img src="/assets/images/icseegt2024.jpg" alt="ICSEEGT 2025">
+        <img src="/assets/images/icseegt2025.png" alt="ICSEEGT 2025">
       </div>
     </div>
     <div class="marquee-container">
@@ -58,15 +58,15 @@ export const header = `
     <div class="main-nav c-row">
       <ul class="full-h center c-row">
         <a href="/" class="nrm-btn center">
-          <li>About</li>
+          <li>About ICSEEGT 2025</li>
         </a>
         <a href="/call-for-papers.html" class="nrm-btn center">
           <li>Call for Papers</li>
         </a>
         <a href="/speakers.html" class="nrm-btn center">
-          <li>Speakers</li>
+          <li>Guests and Speakers</li>
         </a>
-        <a href="#imp-dates" class="nrm-btn center">
+        <a href="/schedule.html" class="nrm-btn center">
           <li>Schedule</li>
         </a>
         <a href="/committee.html" class="nrm-btn center">
@@ -107,11 +107,11 @@ export const footer = `
                 <div class="footer-col">
                     <h3>QUICK LINKS</h3>
                     <ul>
-                        <li><a href="#about">About Conference</a></li>
-                        <li><a href="#committee">Conference Committee</a></li>
-                        <li><a href="#imp-dates">Event Shedule</a></li>
-                        <li><a href="#register">Registration</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="/">About Conference</a></li>
+                        <li><a href="/committee.html">Conference Committee</a></li>
+                        <li><a href="/schedule.html">Event Shedule</a></li>
+                        <li><a href="/register.html">Registration</a></li>
+                        <li><a href="/contacts.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -152,6 +152,9 @@ export const footer = `
 `
 
 export const aside = `
+        <div class="column shadow rounded-2 p-4 date-ctnr mb-5">
+          <img src="/assets/images/PCE_Logo.png" class="full-w" />
+        </div>
         <h2 class="section-title">Important Dates</h2>
         <div class="column shadow rounded-2 p-4 date-ctnr" id="imp-dates">
           <ul class="list-unstyled dates">
