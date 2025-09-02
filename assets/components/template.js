@@ -1,4 +1,4 @@
-const last_updated = "July 14, 2025 12:02 PM";
+const last_updated = "September 03, 2025 12:02 AM";
 
 export const header = `
   <header class="column pb-3 full-w">
@@ -92,53 +92,7 @@ export const header = `
 `
 
 export const footer = `
-        <div class="container align-items-start">
-            <div class="center c-row flex-wrap gap-3 align-items-start">
-                <div class="footer-col">
-                    <h3 style="font-size: 25px;">ICSEEGT 2025</h3>
-                    <p>An international conference focused on advancing research in sustainable energy, environment, and
-                        green
-                        technologies through global academic and industry collaboration.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>QUICK LINKS</h3>
-                    <ul>
-                        <li><a href="/">About Conference</a></li>
-                        <li><a href="/committee.html">Conference Committees</a></li>
-                        <li><a href="/schedule.html">Event Shedule</a></li>
-                        <li><a href="/register.html">Registration</a></li>
-                        <li><a href="/contacts.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>OTHER LINKS</h3>
-                    <ul>
-                        <li><a href="https://poornima.edu.in/">About Poornima</a></li>
-                        <li><a href="https://poornima.edu.in/life-at-poornima/events">Life At Poornima</a></li>
-                        <li><a href="https://blog.poornima.edu.in/">Blogs</a></li>
-                        <li><a href="https://poornima.edu.in/placements/overview">Placements</a></li>
-                        <li><a href="https://poornima.edu.in/other-links/admission">Admissions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>FOLLOW US ON</h3>
-                    <ul class="footer-social c-row" style="height: 40px;">
-                        <li><a class="center facebook" href="https://www.facebook.com/Poornima.College.Engineering"><img
-                                    src="/assets/icons/facebook.svg" alt="facebook"></a></li>
-                        <li><a class="center twitter" href="https://x.com/poornimacollege"><img
-                                    src="/assets/icons/twitter.svg" alt="twitter"></a></li>
-                        <li><a class="center linkedin"
-                                href="https://www.linkedin.com/school/poornima-college-of-engineering-jaipur"><img
-                                    src="/assets/icons/linkedin.svg" alt="linkedin"></a></li>
-                        <li><a class="center google-plus" href="https://www.instagram.com/poornimacollege/"><img
-                                    src="/assets/icons/instagram.svg" alt="instagram"></a>
-                        </li>
-                    </ul>
-                    <img src="/assets/images/poornima.png" alt="poornima" style="width: 180px; margin-top: 30px;">
-                </div>
-            </div>
-        </div>
-        <div class="container text-center mt-4">
+        <div class="container text-center">
             <p class="mb-0 p-0">&copy; 2025 ICSEEGT. All Rights Reserved.</p>
             <p class="mb-0 p-0">Designed, Developed and Managed by <a
                     href="https://neerajvermagps.infinityfreeapp.com/">Neeraj
