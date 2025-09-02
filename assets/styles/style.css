@@ -330,13 +330,21 @@ header {
   background-color: #ffffff;
   max-width: 700px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 15px 30px;
   border-radius: 10px;
   border: 1px solid #cce0f5;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   text-align: left;
 }
 
+.bank-top-row {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.bank-col {
+  width: 50%;
+}
 .bank-row {
   display: flex;
   justify-content: space-between;
@@ -356,6 +364,7 @@ header {
 .value {
   color: #222;
   font-weight: 500;
+  text-align: right;
 }
 
 /* Committee */
@@ -669,6 +678,36 @@ header {
   margin-top: 60px;
 }
 
+/* Downloads */
+.downloads-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.download-item {
+  background: #ffffff;
+  border: 1px solid #004d4050;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  button, a {
+    width: 145px;
+  }
+}
+
+.download-item h4 {
+  width: calc(100% - 160px);
+  font-size: 16px;
+  text-align: start;
+  color: #004D40;
+  margin-bottom: 0;
+}
+
 /* Marquee */
 .marquee-container {
   overflow: hidden;
@@ -680,7 +719,7 @@ header {
   display: inline-block;
   padding-left: 100%;
   font-size: 14px;
-  animation: scroll-left 50s linear infinite;
+  animation: scroll-left 30s linear infinite;
   font-weight: 600;
   color: var(--main-theme-color);
 }
@@ -724,6 +763,14 @@ header {
   }
   .table-scroll {
     display: block;
+  }
+  .bank-top-row {
+    gap: 0;
+    flex-direction: column;
+  }
+  .bank-col {
+    width: 100%;
+    border-bottom: 1px dashed #d5e5f5;
   }
 }
 
@@ -787,7 +834,24 @@ header {
   }
 
   .download-item {
-    width: 90%;
+    width: min(90%, 260px);
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .download-item h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .bank-top-row {
+    gap: 0;
+    flex-direction: column;
+  }
+  .bank-col {
+    width: 100%;
+    border-bottom: 1px dashed #d5e5f5;
   }
 }
 
@@ -832,6 +896,14 @@ header {
   .committee-patrons-b {
     flex-direction: column;
   }
+  .bank-top-row {
+    gap: 25px;
+    flex-direction: row;
+  }
+  .bank-col {
+    width: 50%;
+    border-bottom: none;
+  }
   .bank-row {
     flex-direction: column;
     align-items: flex-start;
@@ -840,6 +912,7 @@ header {
 
   .value {
     margin-top: 5px;
+    text-align: start !important;
   }
 }
 
@@ -859,13 +932,16 @@ header {
     font-size: 15px;
   }
 
-  .bank-row {
+  .bank-top-row {
+    gap: 0;
     flex-direction: column;
   }
+  .bank-col {
+    width: 100%;
+    border-bottom: 1px dashed #d5e5f5;
+  }
 
-  .bank-details {
-    .value {
-      text-align: start;
-    }
+  .bank-row {
+    flex-direction: column;
   }
 }

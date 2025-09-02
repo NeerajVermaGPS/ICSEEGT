@@ -13,9 +13,10 @@ export const header = `
             2025)</b>
         </h1>
         <div class="tth-2 full-w column justify-content-center">
-          <div class="tth-21">
-            Jointly Organized by Department of Mechanical & Civil Engineering<br/>Poornima College of Engineering, Jaipur, India<br>(Hybrid Mode)<br>
-            <strong>(December 12-13, 2025)</strong>
+          <div class="tth-2">
+            Jointly Organized by Department of Mechanical & Civil Engineering<br/>
+            <h1 class="tth-1 full-w my-2 fw-bold">Poornima College of Engineering, Jaipur, India</h1>
+            <strong>(Hybrid Mode on December 12-13, 2025)</strong>
           </div>
         </div>
         <div class="full-w c-row justify-content-center gap-5 mt-4 mt-lg-0">
@@ -33,15 +34,10 @@ export const header = `
     </div>
     <div class="marquee-container">
       <div class="marquee-content">
-        All accepted and presented papers will be submitted to Scopus/SCIE-indexed journals and proceedings for their
-        peer review and publication. &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Download Conference Brochure: <a href="#" target="_blank">Download Brochure(TBU)</a>
         &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Paper Submission Link: <a target="_blank" href="#">
           TBU</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        Fee Payment Information: <a target="_blank" href="#">
-          TBU</a>
-        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Registration Link: <a target="_blank" href="#">TBU</a>
       </div>
     </div>
@@ -70,10 +66,10 @@ export const header = `
           <li>Schedule</li>
         </a>
         <a href="/committee.html" class="nrm-btn center">
-          <li>Conference Committee</li>
+          <li>Conference Committees</li>
         </a>
         <a href="/register.html" class="nrm-btn center">
-          <li>Register</li>
+          <li>Registration</li>
         </a>
         <a href="/downloads.html" class="nrm-btn center">
           <li>Downloads</li>
@@ -108,7 +104,7 @@ export const footer = `
                     <h3>QUICK LINKS</h3>
                     <ul>
                         <li><a href="/">About Conference</a></li>
-                        <li><a href="/committee.html">Conference Committee</a></li>
+                        <li><a href="/committee.html">Conference Committees</a></li>
                         <li><a href="/schedule.html">Event Shedule</a></li>
                         <li><a href="/register.html">Registration</a></li>
                         <li><a href="/contacts.html">Contact Us</a></li>
@@ -158,10 +154,10 @@ export const aside = `
         <h2 class="section-title">Important Dates</h2>
         <div class="column shadow rounded-2 p-4 date-ctnr" id="imp-dates">
           <ul class="list-unstyled dates">
-            <li><span class="date-title">Paper Submission Opens:</span><span class="date-desc">July 7, 2025</span></li>
-            <li><span class="date-title">Paper Submission Deadline:</span><span class="date-desc">September 26, 2025</span></li>
-            <li><span class="date-title">Acceptance Notification:</span><span class="date-desc">October 17, 2025</span></li>
-            <li><span class="date-title">Registration Process Starts:</span><span class="date-desc">October 20, 2025</span></li>
+            <li><span class="date-title">Paper Submission Opens:</span><span class="date-desc">August 31, 2025</span></li>
+            <li><span class="date-title">Paper Submission Deadline:</span><span class="date-desc">October 26, 2025</span></li>
+            <li><span class="date-title">Acceptance Notification:</span><span class="date-desc">October 28, 2025</span></li>
+            <li><span class="date-title">Registration Process Starts:</span><span class="date-desc">October 30, 2025</span></li>
             <li><span class="date-title">Last Date of Registration:</span><span class="date-desc">November 15, 2025</span></li>
             <li><span class="date-title">Registration with Late Fee:</span><span class="date-desc">November 24, 2025</span></li>
             <li><span class="date-title">Conference Dates:</span><span class="date-desc">December 12–13, 2025</span></li>
