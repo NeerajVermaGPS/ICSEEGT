@@ -1,4 +1,4 @@
-const last_updated = "September 03, 2025 12:02 AM";
+const last_updated = "September 03, 2025 10:29 PM";
 
 export const header = `
   <header class="column pb-3 full-w">
@@ -34,11 +34,11 @@ export const header = `
     </div>
     <div class="marquee-container">
       <div class="marquee-content">
-        Download Conference Brochure: <a href="#" target="_blank">Download Brochure(TBU)</a>
+        To download conference brochure <a href="/assets/documents/ICSEEGT-2025-Brochure.pdf" download target="_blank">click here</a>.
         &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        Paper Submission Link: <a target="_blank" href="#">
-          TBU</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        Registration Link: <a target="_blank" href="#">TBU</a>
+        Paper Submission Link: <a target="_blank" href="https://cmt3.research.microsoft.com/ICSEEGT2025">
+          https://cmt3.research.microsoft.com/ICSEEGT2025</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        Registration Link: <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfkGGUqdccvLL6Q93QRH53_KXNNNErlzxKJFHZicWndigqqnA/viewform">Click here</a>
       </div>
     </div>
   </header>
