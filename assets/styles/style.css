@@ -314,9 +314,10 @@ header {
 
 .reg-note {
   margin-top: 40px;
-  background: #fff3cd75;
-  color: #856404;
-  border: 1px solid #ffeeba;
+  background: #20863882;
+;
+  color: #020a02;
+  border: 1px solid #208638d2;
   border-radius: 5px;
   padding: 15px 20px;
   max-width: 800px;
@@ -358,7 +359,7 @@ header {
 
 .label {
   font-weight: 600;
-  color: #004080;
+  color: #004D40;
 }
 
 .value {
