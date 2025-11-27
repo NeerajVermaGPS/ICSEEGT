@@ -33,7 +33,7 @@ Fifth International Conference on Sustainable Energy, Environment, and Green Tec
     </div>
     <div class="marquee-container">
       <div class="marquee-content">
-        To download conference brochure <a href="/assets/documents/ICSEEGT-2025-Brochure.pdf" download target="_blank">click here</a>.
+        To download conference brochure <a href="assets/documents/ICSEEGT-2025-Brochure.pdf" download target="_blank">click here</a>.
         &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Paper Submission Link: <a target="_blank" href="https://cmt3.research.microsoft.com/ICSEEGT2025">
           https://cmt3.research.microsoft.com/ICSEEGT2025</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

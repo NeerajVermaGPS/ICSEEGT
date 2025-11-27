@@ -442,7 +442,7 @@ header {
 
 .conf-content p {
   margin-top: 1rem;
-  color: var(--secondary-font-color);
+  color: var(--main-theme-color);
   line-height: 1.6;
 }
 
@@ -528,7 +528,7 @@ header {
 }
 
 .journal-card {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .a-external a::after {
@@ -609,7 +609,7 @@ header {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  color: var(--secondary-font-color, #242424);
+  color: var(--ThemeFont, #242424);
 }
 .bar {
   height: 12px;
@@ -659,7 +659,7 @@ header {
   background: #b2dfdbad;
   border-top: 1px solid var(--main-theme-color);
   padding: 20px;
-  color: var(--secondary-font-color, #242424);
+  color: var(--tertiary-font-color, #242424);
 }
 
 /* Contacts */
