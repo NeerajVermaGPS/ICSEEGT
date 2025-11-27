@@ -111,7 +111,7 @@ header {
 }
 .themed-accordion .accordion-body {
   background-color: #f8f9fa;
-  color: var(--secondary-font-color);
+  color: var(--primary-font-color);
   font-size: 0.95rem;
   line-height: 1.6;
   padding: 1.2rem;

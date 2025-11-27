@@ -39,13 +39,13 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/assets/images/hero1.webp" alt="Hero" />
+              <img src="assets\images\hero1.webp" alt="Hero" />
             </div>
             <div class="swiper-slide">
-              <img src="/assets/images/hero2.jpg" alt="Hero" />
+              <img src="assets\images\windmill.png" alt="Hero" />
             </div>
             <div class="swiper-slide">
-              <img src="/assets/images/hero3.png" alt="Hero" />
+              <img src="assets\images\hero3.png" alt="Hero" />
             </div>
             <div class="swiper-slide">
               <img src="/assets/images/hero4.jpg" alt="Hero" />
@@ -136,7 +136,7 @@
               <div id="collapseCollege" class="accordion-collapse collapse show" aria-labelledby="headingCollege"
                 data-bs-parent="#aboutAccordion">
                 <div class="accordion-body">
-                  <img src="/assets/images/clg.png" alt="Jaipur">
+                  <img src="assets\images\hero1.webp" alt="Jaipur">
                   <p>Poornima College of Engineering was established in 2000 with the aim of imparting pragmatic technical education. In its magnificent journey of 25 years, PCE has set various benchmarks and reached at new pinnacles in Engineering Education with dedication, perseverance and devotion. PCE is celebrated its “Silver Jubilee Year” (2024-25) by implementing the academic autonomy conferred by UGC. With student strength of 2500+ students studying in 10 specializations of engineering (CE, AI & DS, CSE (AI), CSE (Cyber Security), CE (R), ECE, EE, ME, Civil & IT), with more than 3.5 Lac square feet of built up area, highly qualified faculties, state of the art infrastructure, good placements and industry-led curriculum, PCE is spearheading its outstanding voyage with motto ‘Success is not a destination, it’s a journey’. Poornima College of Engineering, Jaipur, has been ranked second under the QIV Ranking of Rajasthan Technical University, Kota, since 2017. The QIV Ranking is based primarily on Academics, University results, Placements, and alumni. PCE has implemented outcome-based education systems and processes to strategically monitor the progress of every individual student right from admission to exit. There are beyond the curriculum contents and activities planned yearly to bridge the gap between industry and academia. This has been demonstrated through continuous enhancement in placement numbers and packages. Moreover, PCE has been accredited by the National Assessment and Accreditation Council (NAAC) with an esteemed A+ Grade, validating the commitment to quality education for the next five years, and Autonomous status by UGC for the next 10 years. The institute has also received a diamond rating from the QS I-gauge.</p>
                 </div>
               </div>
@@ -153,6 +153,7 @@
               <div id="collapseMech" class="accordion-collapse collapse" aria-labelledby="headingMech"
                 data-bs-parent="#aboutAccordion">
                 <div class="accordion-body">
+                  <img src="assets\images\hero1.webp" alt="Jaipur">
                   <p>Poornima College of Engineering (PCE), Jaipur, an autonomous institution accredited with NAAC A+ Grade, is recognized for academic excellence and industry-aligned education. Established in 2004, the Department of Mechanical Engineering is one of PCE’s leading departments, known for its innovation-driven curriculum and focus on experiential learning. The department blends core technical knowledge with hands-on learning through project-based modules, design challenges, and Add-on Courses in CAD/CAM, 3D Printing, Robotics, and Industrial Automation. The curriculum is regularly updated with inputs from industry experts, alumni, and academia to meet evolving global standards.</p>
                   <p>Modern laboratories and simulation tools support advanced research, prototyping, and practical learning. Faculty and students actively collaborate with national and international organizations, contributing to a global academic perspective. The department maintains a strong industry-academia interface through regular workshops, seminars, industrial visits, and conferences. Expert lectures from IITs, foreign universities, and industry leaders keep students informed about emerging technologies and career trends. Innovation and leadership are fostered through platforms like TECHNOVATION, SAE student chapters, and multidisciplinary projects in the IDEA Lab. A culture of openness and collaboration ensures a student-centric learning environment. The department is committed to producing technically proficient, ethically responsible, and industry-ready mechanical engineers.</p>
                 </div>
@@ -170,6 +171,7 @@
               <div id="collapseCivil" class="accordion-collapse collapse" aria-labelledby="headingCivil"
                 data-bs-parent="#aboutAccordion">
                 <div class="accordion-body">
+                  <img src="assets\images\hero1.webp" alt="Jaipur">
                   <p>The Civil Engineering Department of PCE came into existence in the year 2011 with an alignment of the department’s evolution with key events and technological advances for the betterment of the society and nation. At present, it has the intake of 60 students providing all the amenities of infrastructure related to knowledge, research, experiments and training of multiple professions. Civil Engineering is a timeless and ever-relevant discipline within the engineering profession. To ensure excellence in education, the Department of Civil Engineering comprises faculty members with academic backgrounds from prestigious institutions, dedicated to imparting their knowledge and expertise. It has been taking initiatives for the versatile enhancement of the students through the technical, cultural and sports fests since its inception. The department has started a Center of Excellence (CoE) for GEOINFORMATICS and a Center of Excellence for Sustainable Construction Materials (UltraTech). Additionally, ICI student chapter has recently been inaugurated.</p>
                 </div>
               </div>
@@ -209,5 +211,23 @@
   <script src="/assets/js/bootstrap.min.js"></script>
   <script src="/assets/js/swiper.js"></script>
   <script type="module" src="/assets/js/script.js"></script>
+  <script type="text/javascript">
+    (function (l) {
+      if(l.search[1] === "/"){
+        var decoded = l.search
+        .slice(1)
+        .split("&")
+        .map(function(s) { 
+          return s.replace(/~and~/g, "&");
+         })
+         .join("?");
+        window.history.replaceState(
+          null,
+          null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script> 
 </body>
 </html>
