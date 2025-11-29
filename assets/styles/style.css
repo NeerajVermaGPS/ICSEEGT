@@ -687,6 +687,14 @@ header {
   gap: 25px;
 }
 
+/* .past {
+ 
+  background-color: #ffffff;
+  border: 2px solid var(--main-theme-color);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 24px rgba(0, 77, 64, 0.15);
+} */
+
 .download-item {
   background: #ffffff;
   border: 1px solid #004d4050;
