@@ -314,10 +314,9 @@ header {
 
 .reg-note {
   margin-top: 40px;
-  background: #20863882;
-;
-  color: #020a02;
-  border: 1px solid #208638d2;
+  background: #fff3cd75;
+  color: #856404;
+  border: 1px solid #ffeeba;
   border-radius: 5px;
   padding: 15px 20px;
   max-width: 800px;
@@ -359,7 +358,7 @@ header {
 
 .label {
   font-weight: 600;
-  color: #004D40;
+  color: #004080;
 }
 
 .value {
@@ -443,7 +442,7 @@ header {
 
 .conf-content p {
   margin-top: 1rem;
-  color: var(--main-theme-color);
+  color: var(--secondary-font-color);
   line-height: 1.6;
 }
 
@@ -529,7 +528,7 @@ header {
 }
 
 .journal-card {
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 .a-external a::after {
@@ -610,7 +609,7 @@ header {
   display: flex;
   justify-content: space-between;
   font-weight: 600;
-  color: var(--ThemeFont, #242424);
+  color: var(--secondary-font-color, #242424);
 }
 .bar {
   height: 12px;
@@ -660,7 +659,7 @@ header {
   background: #b2dfdbad;
   border-top: 1px solid var(--main-theme-color);
   padding: 20px;
-  color: var(--tertiary-font-color, #242424);
+  color: var(--secondary-font-color, #242424);
 }
 
 /* Contacts */
@@ -686,14 +685,6 @@ header {
   justify-content: center;
   gap: 25px;
 }
-
-/* .past {
- 
-  background-color: #ffffff;
-  border: 2px solid var(--main-theme-color);
-  transition: 0.3s ease;
-  box-shadow: 0 8px 24px rgba(0, 77, 64, 0.15);
-} */
 
 .download-item {
   background: #ffffff;

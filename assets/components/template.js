@@ -33,7 +33,7 @@ Fifth International Conference on Sustainable Energy, Environment, and Green Tec
     </div>
     <div class="marquee-container">
       <div class="marquee-content">
-        To download conference brochure <a href="assets/documents/ICSEEGT-2025-Brochure.pdf" download target="_blank">click here</a>.
+        To download conference brochure <a href="/assets/documents/ICSEEGT-2025-Brochure.pdf" download target="_blank">click here</a>.
         &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Paper Submission Link: <a target="_blank" href="https://cmt3.research.microsoft.com/ICSEEGT2025">
           https://cmt3.research.microsoft.com/ICSEEGT2025</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -106,9 +106,6 @@ export const aside = `
         <div class="column shadow rounded-2 p-4 date-ctnr mb-5">
           <img src="/assets/images/PCE_Logo.png" class="full-w" />
         </div>
-         <div class="column shadow rounded-2 p-4 date-ctnr mb-5">
-         <img src="assets/images/theme.png" alt="publishers" class="full-w">
-       </div>
         <h2 class="section-title">Important Dates</h2>
         <div class="column shadow rounded-2 p-4 date-ctnr" id="imp-dates">
           <ul class="list-unstyled dates">
@@ -124,6 +121,5 @@ export const aside = `
         <h2 class="section-title mt-5">Publishers</h2>
       <div class="full-w mt-5 column shadow rounded-2 p-3 date-ctnr">
          <img src="/assets/images/springer.png" alt="publishers" class="full-w">
-         <p>After peer review by the journal selected papers from ICSEEGT 2025 will be published in a special issue entitled " Recent Advances in Environmental Management, Clean Energy, and Pollution Mitigation'' in Environmental Science and Pollution Research (ESPR) of Springer.<br>
-        <a href="https://link.springer.com/journal/11356/updates/27813418">visit springer.com</a></p>
+         <p>After peer review by the journal selected papers from ICSEEGT 2024 will be published in a special issue entitled " Recent Environmental and Renewable Energy Innovations for a Sustainable Future'' in Environmental Science and Pollution Research (ESPR) of Springer.</p>
        </div>`
