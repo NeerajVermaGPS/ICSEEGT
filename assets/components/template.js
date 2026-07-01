@@ -7,7 +7,7 @@ export const header = `
         <img src="/assets/images/pce.png" alt="pce">
       </div>
       <div class="header-text text-center">
-        <h1 class="tth-1 full-w">Sixth International Conference on Sustainable Energy, Environment, and Green Technologies (ICSEEGT 2026)</h1>
+        <h1 class="tth-1 full-w"><b>Sixth International Conference on Sustainable Energy, Environment, and Green Technologies (ICSEEGT 2026)</b></h1>
         <div class="tth-2 full-w column justify-content-center">
           <div class="tth-2">
             Jointly Organized by Department of Mechanical & Civil Engineering<br/>
@@ -30,7 +30,7 @@ export const header = `
     </div>
     <div class="marquee-container">
       <div class="marquee-content">
-        To download conference brochure <a href="javascript:void(0)" download onclick="alert('link will be updated soon.')">click here</a>.
+        To download conference brochure <a href="assets/documents/ICSEEGT 2026-Flyer.pdf" download onclick="alert('Download started.')">click here to download</a>.
         &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Paper Submission Link: <a target="_blank" href="javascript:void(0)" onclick="alert('link will be updated soon.')">To be updated</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
         Registration Link: <a target="_blank" href="javascript:void(0)" onclick="alert('link will be updated soon.')">Click here</a>
@@ -100,15 +100,15 @@ export const footer = `
 
 export const aside = `
         <div class="column shadow rounded-2 p-4 date-ctnr mb-5">
-          <img src="assets/images/PCEAutonomous.jpg" class="full-w" />
+          <img src="assets/images/PCE_Logo.png" class="full-w" />
         </div>
         <h2 class="section-title">Important Dates</h2>
         <div class="column shadow rounded-2 p-4 date-ctnr" id="imp-dates">
           <ul class="list-unstyled dates">
-            <li><span class="date-title">Paper Submission Opens:</span><span class="date-desc">Friday, 15 May 2026</span></li>
-            <li><span class="date-title">Paper Submission Deadline:</span><span class="date-desc">Saturday, 15 August 2026</span></li>
-            <li><span class="date-title">Acceptance Notification:</span><span class="date-desc">Monday, 17 August 2026</span></li>
-            <li><span class="date-title">Registration Process Starts:</span><span class="date-desc">Wednesday, 15 July 2026</span></li>
+            <li><span class="date-title">Paper Submission Opens:</span><span class="date-desc">Wednesday, 1 July 2026</span></li>
+            <li><span class="date-title">Paper Submission Deadline:</span><span class="date-desc">Thursday, 15 October 2026</span></li>
+            <li><span class="date-title">Acceptance Notification:</span><span class="date-desc">Monday, 19 October 2026</span></li>
+            <li><span class="date-title">Registration Process Starts:</span><span class="date-desc">Monday, 20 October 2026</span></li>
             <li><span class="date-title">Last Date of Registration:</span><span class="date-desc">Saturday, 5 December 2026</span></li>
             <li><span class="date-title">Registration with Late Fee:</span><span class="date-desc">Tuesday, 8 December 2026</span></li>
             <li><span class="date-title">Conference Dates:</span><span class="date-desc">Friday–Saturday, 11–12 December 2026</span></li>
